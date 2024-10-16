@@ -1,0 +1,15 @@
+bases:
+  - ../base/
+
+namespace: voya-staging
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+resources:
+  - ingress.yaml
+
+configMapGenerator:
+  - name: cm-ringo-web-config
+    files:
+      - env

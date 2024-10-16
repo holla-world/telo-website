@@ -1,0 +1,27 @@
+@mixin ar {
+  $selector: #{&};
+
+  @at-root {
+    html.lang-ar-style {
+      #{$selector} {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin text-left {
+  text-align: left;
+
+  @include ar {
+    text-align: right;
+  }
+}
+
+@mixin justify-start {
+  justify-content: flex-start;
+
+  @include ar {
+    justify-content: flex-end;
+  }
+}

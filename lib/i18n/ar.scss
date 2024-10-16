@@ -1,0 +1,19 @@
+html.lang-ar-style {
+  .el-tabs {
+    .el-tabs__nav-scroll {
+      .el-tabs__nav {
+        float: right;
+
+        .el-tabs__active-bar {
+          display: none;
+        }
+
+        .el-tabs__item.is-top {
+          &:last-child {
+            padding-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}

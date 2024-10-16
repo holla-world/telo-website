@@ -1,0 +1,12 @@
+namespace: voya-production
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+resources:
+  - deployment.yaml
+
+configMapGenerator:
+  - name: cm-ringo-website-runtime-config
+    files:
+      - ./configmap/nginx.conf

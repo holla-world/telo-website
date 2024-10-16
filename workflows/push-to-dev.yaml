@@ -1,0 +1,25 @@
+name: Push Auto Merge To Dev
+on:
+  # 推送代码后触发
+  push:
+    branches:
+      - feature/* # 新特性分支
+      - feature_* # 新特性分支
+      - bugfix/*  # bug 修复分支
+      - bugfix_*  # bug 修复分支
+      - modify/*  # 功能变更分支
+      - modify_*  # 功能变更分支
+
+jobs:
+  merge_push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Merge
+        run: |
+          git config --global user.name 'Github Bot'
+          git config --global user.email '<>'
+          git pull --unshallow
+          git checkout -b dev origin/dev
+          git merge --no-edit ${{ github.ref }}
+          git push origin dev

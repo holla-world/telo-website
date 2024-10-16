@@ -1,0 +1,26 @@
+apiVersion: apisix.apache.org/v2
+kind: ApisixRoute
+metadata:
+  name: ringo-web-route
+  namespace: ringo-production
+  annotations:
+    k8s.apisix.apache.org/upstream-scheme: http
+spec:
+  http:
+    - name: ringo-web
+      match:
+        paths:
+          - /*
+        hosts:
+          - www.ringo.cool
+          - ringo.cool
+          - www.freechat.cool
+          - freechat.cool
+      backends:
+        - serviceName: ringo-web
+          servicePort: 80
+      plugins:
+        - name: redirect
+          enable: true
+          config:
+            http_to_https: true

@@ -1,0 +1,15 @@
+bases:
+  - ../base/
+
+namespace: ringo-production
+
+generatorOptions:
+  disableNameSuffixHash: true
+
+resources:
+  - ingress.yaml
+
+configMapGenerator:
+  - name: cm-ringo-web-config
+    files:
+      - env

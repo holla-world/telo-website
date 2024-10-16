@@ -1,0 +1,201 @@
+$text-color: #262626;
+$text-black-color: #000000;
+$text-purple-color: #3e00ff;
+$text-blue-color: #226cf9;
+$animation-duration: 0.5s;
+$page-body-padding-x: 16px;
+
+$toast-z-index: 10000;
+$mask-z-index: 1000;
+$bridge-console-z-index: 500;
+
+@mixin bold-text($weight: 700) {
+  font-family: 'Prompt-Bold';
+  font-weight: $weight;
+}
+
+@mixin background-image-size($url) {
+  background-image: url($url);
+  background-size: 100% 100%;
+}
+
+@mixin support-webp($webp, $backup) {
+  $selector: &;
+  background-image: url(#{$webp});
+
+  @at-root {
+    html.no-webp {
+      #{$selector} {
+        background-image: url(#{$backup});
+      }
+    }
+  }
+
+  // background-image: url(#{$backup});
+
+  // @supports (background-image: url(#{$webp})) {
+  //   background-image: url(#{$webp});
+  // }
+}
+
+@mixin sync-webp-png($webp) {
+  @include support-webp('#{$webp}.webp', '#{$webp}.png');
+}
+
+@mixin sync-webp-jpg($webp) {
+  content: 'jpg #{&}';
+  @include support-webp('#{$webp}.webp', '#{$webp}.jpg');
+}
+
+@mixin font-size($size, $position: 'left') {
+  @include font-size-n($size, $position);
+}
+
+@mixin font-size-n($size, $position: 'left') {
+  font-size: 12px;
+  transform: scale(calc($size / 12));
+  @if $position == 'center' {
+    transform-origin: center center;
+  } @else {
+    transform-origin: left top;
+
+    @include lang.ar {
+      transform-origin: right top;
+    }
+  }
+}
+
+@mixin font-size-11($position: 'left') {
+  @include font-size-n(11, $position);
+}
+
+@mixin font-size-10($position: 'left') {
+  @include font-size-n(10, $position);
+}
+@mixin font-size-x ($size: 12, $position: 'left'){
+  font-size: 12px;
+  transform: scale(calc($size / 12));
+	@if $position == 'center' {
+    transform-origin: center center;
+  } @else {
+    transform-origin: left top;
+  }}
+
+@mixin font-size-8($position: 'left') {
+  @include font-size-n(8, $position);
+}
+
+@mixin absolute-x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin absolute-y-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin absolute-all-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin absolute-full-size($distance: 0) {
+  position: absolute;
+  top: $distance;
+  left: $distance;
+  right: $distance;
+  bottom: $distance;
+}
+
+@mixin line-clamp($clamp) {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: $clamp;
+  -webkit-box-orient: vertical;
+}
+
+@mixin mask($z-index: $mask-z-index) {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: $z-index;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+@function bottom-in-safe($bottom) {
+  @return calc(#{$bottom} + var(--safe-bottom, 0px));
+}
+
+@mixin safe-bottom($bottom) {
+  bottom: bottom-in-safe($bottom);
+}
+
+@function top-in-safe($top) {
+  @return calc(#{$top} + var(--safe-top, 0px));
+}
+
+@mixin safe-top($top) {
+  top: top-in-safe($top);
+}
+
+// beta skin mixin
+@mixin skin-style($skip-name) {
+  $skin-selector: &;
+
+  @at-root {
+    .app-container-#{$skip-name} {
+      #{$skin-selector} {
+        @content;
+      }
+    }
+  }
+}
+
+@mixin arrow($width, $color, $direction) {
+  width: 0;
+  height: 0;
+  display: block;
+  border: $width solid transparent;
+  @if $direction == top {
+    border-top-color: $color;
+  } @else if $direction == right {
+    border-left-color: $color;
+  } @else if $direction == bottom {
+    border-bottom-color: $color;
+  } @else if $direction == left {
+    border-right-color: $color;
+  } @else {
+    @error "Unknown direction #{$direction}.";
+  }
+}
+
+@mixin bgImg($url, $width, $height) {
+  background-image: url($url);
+  background-size: 100% 100%;
+  height: $height;
+  width: $width;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

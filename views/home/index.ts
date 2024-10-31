@@ -1,5 +1,4 @@
 import '@lib/style/public.scss';
-// import './main.scss'
 import 'uno.css';
 import { createApp } from 'vue';
 import App from './App.vue';

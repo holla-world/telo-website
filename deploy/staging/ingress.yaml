@@ -9,7 +9,7 @@ spec:
         paths:
           - /*
         hosts:
-          - telo.staging.voya.world
+          - teloapp.net
       backends:
         - serviceName: telo-web
           servicePort: 80

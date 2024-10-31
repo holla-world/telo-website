@@ -9,7 +9,7 @@ spec:
         paths:
           - /*
         hosts:
-          - sandbox.telo.cool
+          - teloapp.net
       backends:
         - serviceName: telo-web
           servicePort: 80

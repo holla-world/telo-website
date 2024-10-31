@@ -1,26 +1,26 @@
 kind: Deployment
 apiVersion: apps/v1
 metadata:
-  name: ringo-web
+  name: telo-web
   labels:
-    app: ringo-web
+    app: telo-web
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ringo-web
+      app: telo-web
   template:
     metadata:
       labels:
-        app: ringo-web
+        app: telo-web
     spec:
       volumes:
         - name: app-config
           configMap:
-            name: cm-ringo-web-config
+            name: cm-telo-web-config
         - name: runtime-config
           configMap:
-            name: cm-ringo-website-runtime-config
+            name: cm-telo-website-runtime-config
       containers:
         - name: node-server
           image: ARTEFACT_IMAGE
@@ -66,9 +66,9 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: ringo-web
+  name: telo-web
   labels:
-    app: ringo-web
+    app: telo-web
 spec:
   ports:
     - name: http-80
@@ -76,11 +76,10 @@ spec:
       port: 80
       targetPort: 80
   selector:
-    app: ringo-web
+    app: telo-web
   type: ClusterIP
   sessionAffinity: None
   ipFamilies:
     - IPv4
   ipFamilyPolicy: SingleStack
   internalTrafficPolicy: Cluster
-

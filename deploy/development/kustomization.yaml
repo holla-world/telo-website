@@ -1,7 +1,7 @@
 bases:
   - ../base/
 
-namespace: ringo-development
+namespace: telo-development
 
 generatorOptions:
   disableNameSuffixHash: true
@@ -10,7 +10,7 @@ resources:
   - ingress.yaml
 
 configMapGenerator:
-  - name: cm-ringo-web-config
+  - name: cm-telo-web-config
     files:
       - env
 
@@ -20,7 +20,7 @@ patches:
   # 调度专属节点
   - target:
       kind: Deployment
-      name: ringo-web
+      name: telo-web
     patch: |-
       - op: add
         path: /spec/template/spec/nodeSelector

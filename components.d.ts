@@ -11,6 +11,7 @@ declare module 'vue' {
     Coin: typeof import('./lib/components/Icon/Coin/index.vue')['default']
     CountDown: typeof import('./lib/components/CountDown/index.vue')['default']
     DataEmpty: typeof import('./lib/components/Icon/DataEmpty/index.vue')['default']
+    ElDrawer: typeof import('element-plus/es')['ElDrawer']
     Female: typeof import('./lib/components/Icon/Female/index.vue')['default']
     I18nTr: typeof import('./lib/components/CountDown/i18n-tr.vue')['default']
     IconArrowBlack: typeof import('./svg/icon-arrow-black.svg')['default']

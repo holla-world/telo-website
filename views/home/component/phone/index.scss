@@ -1,0 +1,58 @@
+.phone-main {
+  @include bgImg('../../../assets/phone_bg_phone.webp', 375px, 812px);
+  position: relative;
+  @include mobile-viewer {
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 16px 0;
+      align-items: center;
+    }
+    .icon_left {
+      width: 99px;
+      height: 48px;
+      z-index: 20;
+    }
+    .icon_right {
+      height: 24px;
+      width: 24px;
+      z-index: 20;
+    }
+    .phone {
+      margin: 52px auto 0;
+      @include bgImg('../../../assets/bg_logo_phone.webp', 180px, 369px);
+    }
+    .desc {
+      margin: 20px auto 0;
+      @include bgImg('../../../assets/desc.webp', 231px, 85px);
+    }
+  }
+  .modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    @include mobile-viewer {
+      .modal_content {
+        position: absolute;
+        top: 118px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        font-size: 18px;
+        color: rgba(255, 255, 255, 1);
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        padding-top: 100px;
+        font-weight: bold;
+        & > p {
+          margin-bottom: 50px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

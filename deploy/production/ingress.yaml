@@ -1,23 +1,23 @@
 apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
-  name: ringo-web-route
-  namespace: ringo-production
+  name: telo-web-route
+  namespace: telo-production
   annotations:
     k8s.apisix.apache.org/upstream-scheme: http
 spec:
   http:
-    - name: ringo-web
+    - name: telo-web
       match:
         paths:
           - /*
         hosts:
-          - www.ringo.cool
-          - ringo.cool
+          - www.telo.cool
+          - telo.cool
           - www.freechat.cool
           - freechat.cool
       backends:
-        - serviceName: ringo-web
+        - serviceName: telo-web
           servicePort: 80
       plugins:
         - name: redirect

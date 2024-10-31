@@ -1,0 +1,89 @@
+.main {
+  background: url('../../../assets/bg_content.webp');
+  height: 100vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+
+  .phone_pos {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+  }
+  .logo_pos {
+    position: absolute;
+    top: 160px;
+    left: 62px;
+  }
+  .font_pos {
+    position: absolute;
+    top: 160px;
+    left: 32px;
+  }
+  @include desktop-viewer {
+    .drawer {
+      font-size: 24px;
+      & > p {
+        margin-bottom: 24px;
+      }
+    }
+    .el-drawer__close {
+      font-size: 30px;
+      color: black;
+    }
+    .loan {
+      top: 248px;
+      right: 33px;
+      position: absolute;
+      font-size: 48px;
+      font-weight: bold;
+      color: #ffffff;
+      strong {
+        color: #615dff;
+      }
+    }
+
+    // .logo_pos {
+    //   position: absolute;
+    //   top: 630px;
+    //   left: 261px;
+    // }
+    // .font_pos {
+    //   position: absolute;
+    //   top: 637px;
+    //   left: 132px;
+    // }
+    .phone {
+      width: 375px;
+      height: 769px;
+    }
+    .logo {
+      height: 77px;
+      width: 80px;
+    }
+    .font {
+      height: 116px;
+      width: 124px;
+    }
+    .header {
+      width: 100%;
+      padding: 21px 32px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .title {
+      & > img {
+        height: 48px;
+        width: 102px;
+      }
+    }
+    .menu {
+      & > img {
+        height: 32px;
+        width: 32px;
+      }
+    }
+  }
+}

@@ -10,6 +10,6 @@ resources:
   - ingress.yaml
 
 configMapGenerator:
-  - name: cm-ringo-web-config
+  - name: cm-telo-web-config
     files:
       - env

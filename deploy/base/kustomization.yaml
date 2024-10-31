@@ -7,6 +7,6 @@ resources:
   - deployment.yaml
 
 configMapGenerator:
-  - name: cm-ringo-website-runtime-config
+  - name: cm-telo-website-runtime-config
     files:
       - ./configmap/nginx.conf

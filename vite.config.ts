@@ -11,19 +11,22 @@ import path from 'path';
 import autoprefixer from 'autoprefixer';
 import postcsspxtoviewport from 'postcss-px-to-viewport-8-plugin';
 import { visualizer } from 'rollup-plugin-visualizer';
-let serviceHTML = globbySync('./service/**/*.html');
-let homeHTML = globbySync('./home/*.html');
-let freechatHTML = globbySync('./home/freechat/*.html');
 
 export default defineConfig({
+  base: '/',
   build: {
+    outDir: 'dist',
     rollupOptions: {
-      input: ['index.html', ...serviceHTML, ...homeHTML, ...freechatHTML]
+      input: {
+        index: path.resolve(__dirname,'index.html'),
+        policy: path.resolve(__dirname, 'policy.html'),
+        service: path.resolve(__dirname, 'services.html')
+      },
     }
   },
   resolve: {
     alias: {
-      '@lib': path.resolve('lib')
+      '@lib': path.resolve('lib'),
     },
     extensions: ['.js', '.vue', '.json', '.ts']
   },
@@ -107,7 +110,7 @@ export default defineConfig({
           req.headers['x-req-proxyURL'] = proxyURL; // 设置未生效
           res.setHeader('x-req-proxyURL', proxyURL);
         }
-      }
+      },
     }
   }
 });

@@ -1,15 +1,15 @@
 apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
-  name: ringo-web-route
+  name: telo-web-route
 spec:
   http:
-    - name: ringo-web
+    - name: telo-web
       match:
         paths:
           - /*
         hosts:
-          - sandbox.ringo.cool
+          - sandbox.telo.cool
       backends:
-        - serviceName: ringo-web
+        - serviceName: telo-web
           servicePort: 80

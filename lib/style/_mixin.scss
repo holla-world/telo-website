@@ -72,14 +72,15 @@ $bridge-console-z-index: 500;
 @mixin font-size-10($position: 'left') {
   @include font-size-n(10, $position);
 }
-@mixin font-size-x ($size: 12, $position: 'left'){
+@mixin font-size-x($size: 12, $position: 'left') {
   font-size: 12px;
   transform: scale(calc($size / 12));
-	@if $position == 'center' {
+  @if $position == 'center' {
     transform-origin: center center;
   } @else {
     transform-origin: left top;
-  }}
+  }
+}
 
 @mixin font-size-8($position: 'left') {
   @include font-size-n(8, $position);
@@ -96,14 +97,29 @@ $bridge-console-z-index: 500;
   top: 50%;
   transform: translateY(-50%);
 }
-
+@mixin mobile-viewer {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop-viewer {
+  @media (min-width: 769px) {
+    @content;
+  }
+}
 @mixin absolute-all-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+@mixin bgImg($url, $width, $height) {
+  background: url($url);
+  height: $height;
+  width: $width;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 @mixin absolute-full-size($distance: 0) {
   position: absolute;
   top: $distance;
@@ -124,7 +140,7 @@ $bridge-console-z-index: 500;
   height: 100vh;
   position: fixed;
   z-index: $z-index;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @function bottom-in-safe($bottom) {

@@ -12,10 +12,7 @@ spec:
         paths:
           - /*
         hosts:
-          - www.telo.cool
-          - telo.cool
-          - www.freechat.cool
-          - freechat.cool
+          - teloapp.net
       backends:
         - serviceName: telo-web
           servicePort: 80

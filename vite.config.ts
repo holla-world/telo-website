@@ -18,15 +18,16 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        index: path.resolve(__dirname,'index.html'),
+        index: path.resolve(__dirname, 'index.html'),
         policy: path.resolve(__dirname, 'policy.html'),
-        service: path.resolve(__dirname, 'services.html')
-      },
+        service: path.resolve(__dirname, 'service.html'),
+        delete: path.resolve(__dirname, 'delete.html')
+      }
     }
   },
   resolve: {
     alias: {
-      '@lib': path.resolve('lib'),
+      '@lib': path.resolve('lib')
     },
     extensions: ['.js', '.vue', '.json', '.ts']
   },
@@ -67,7 +68,6 @@ export default defineConfig({
     visualizer({ open: true }),
     svgLoader(),
     {
-
       name: 'freechat-server',
       configureServer(server) {
         return () => {
@@ -104,13 +104,13 @@ export default defineConfig({
       '/api': {
         target: 'http://api.sandbox.ringo.cool',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '/api'),
+        rewrite: path => path.replace(/^\/api/, '/api'),
         bypass(req, res, options: any) {
           const proxyURL = options.target + options.rewrite(req.url);
           req.headers['x-req-proxyURL'] = proxyURL; // 设置未生效
           res.setHeader('x-req-proxyURL', proxyURL);
         }
-      },
+      }
     }
   }
 });

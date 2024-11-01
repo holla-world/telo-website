@@ -16,19 +16,19 @@ configMapGenerator:
 
 # patches 语法参考博客
 # https://fabianlee.org/2022/04/15/kubernetes-kustomize-transformations-with-patchesjson6902/
-patches:
-  # 调度专属节点
-  - target:
-      kind: Deployment
-      name: ringo-web
-    patch: |-
-      - op: add
-        path: /spec/template/spec/nodeSelector
-        value:
-          nodegroup-type: specific
-      - op: add
-        path: /spec/template/spec/tolerations
-        value:
-          - key: specific
-            operator: "Exists"
-            effect: "NoSchedule"
+# patches:
+#   # 调度专属节点
+#   - target:
+#       kind: Deployment
+#       name: ringo-web
+#     patch: |-
+#       - op: add
+#         path: /spec/template/spec/nodeSelector
+#         value:
+#           nodegroup-type: specific
+#       - op: add
+#         path: /spec/template/spec/tolerations
+#         value:
+#           - key: specific
+#             operator: "Exists"
+#             effect: "NoSchedule"

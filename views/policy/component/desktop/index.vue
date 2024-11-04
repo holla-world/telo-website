@@ -14,263 +14,255 @@
         <p @click="jump('/service')">Terms of Service</p>
       </div>
     </el-drawer>
-    <!-- <div class="content">
+    <div class="content">
+      <div class="content_title">Private Policy</div>
       <div class="phrase">
-        <p class="title">What precisely Does this Privacy Policy Encompass?</p>
+        <p class="title">1.What Information Do We Gather?</p>
         <p class="desc">
-          This Privacy Policy is closely related to Telo's meticulous handling of Personal Data that is gradually
-          amassed when you engage in the utilization of the application and service. Nevertheless, it emphatically does
-          not pertain to the actions of third parties that are neither possessed nor controlled by Telo. This includes
-          various third-party services that are accessed through Telo. Given the fact that our service integrates with
-          sites such as Facebook and others of a similar nature, we reasonably assume that you are thoroughly
-          familiarized with their respective privacy policies.
+          We accumulate information when you establish an account and utilize the Platform. We also gather information
+          that you share with us from third-party social network providers, as well as technical and behavioral details
+          about your usage of the Platform. Additionally, we collect information contained in the messages you transmit
+          through our Platform and information from your phone directory if you grant us access to it on your mobile
+          device. More details about the categories and sources of information are provided below. Information You Opt
+          to Provide For certain activities, such as when you register or upload content to the Platform, you may
+          furnish some or all of the following information: 
+          <p class="desc">• Registration details, like age, username and password,
+            language, email or phone number, and social media account.</p>
+            <p class="desc">• Profile data, including name, social media
+          account information (such as your nickname as it appears on your social media profile, your user ID, and your
+          profile picture), and profile image. </p>
+          <p class="desc"></p>
+          <p class="desc">• User-generated content, comprising comments, photographs, videos, and
+          virtual item videos that you decide to upload or broadcast on the Platform (“User Content”). </p>
+          
+          <p class="desc">• Payment
+          details, such as PayPal or other third-party payment information (where required for payment purposes, we will
+          not retain and collect your credit card name, number or security code). </p>
+          <p class="desc">• Transaction data, such as
+          transaction records and history, date, items, amounts.
+        </p>
+        <p class="desc">• Your phone and social network contacts, with your
+          permission. If you choose to find other users through your phone contacts, we will access and collect the
+          names and phone numbers and match that information against existing users of the Platform. If you choose to
+          find other users through your social network contacts, we will gather your public profile information as well
+          as the names and profiles of your social contacts. 
+          
+        </p>
+        <p class="desc">• Your opt-in selections and communication preferences. </p>
+        <p class="desc">•
+          Information to authenticate an account. 
+        </p>
+        <p class="desc">
+        • Information in correspondence you send to us. 
+      </p>
+      <p class="desc">
+      • Information you
+          share through surveys or your participation in challenges, sweepstakes, or contests, such as your gender, age,
+          likeness, and preferences. For safety and security and to ensure you have the most optimal user experience, we
+          require users to authenticate their accounts (because we want to make sure you are not a bot!) and might ask
+          for your phone number or Facebook Account. Don’t be concerned! This is only to confirm that you are real and
+          alive! We won't use your phone number for marketing purposes. Information We Gather When You Utilize Once you
+          have created a Profile and used Telo, you may choose to edit your gender, birthday and other information.
+          However, please note that these are not mandatory and you have a choice. We may collect information related to
+          when and how you used our Services. The collected information includes your IP address, device information
+          (model, system, MCC), time zone. And we also collect information about mobile operators, network information
+          (5G\4G\3G\WIFI). That information helps us determine your physical location so that it can be displayed and
+          shared with other users who choose to view "nearby" users and moments. We may, from time to time, permit our
+          employees to use the product for testing and user engagement purposes. When you use our Service, your
+          position, microphone and phone camera shall be utilized upon your explicit authorization, and certain log file
+          information shall be uploaded by you. All such information enables more accurate reporting and improvement of
+          the Service.
+        </p>
         </p>
       </div>
       <div class="phrase">
-        <p class="title">The Service</p>
+        <p class="title">2.How We Utilize Your Information</p>
         <p class="desc">
-          Telo presents an astonishingly user-friendly interface that is nothing short of exceptional. It stands out
-          with its intuitive design and seamless functionality, making it a pleasure to interact with. Just like a
-          state-of-the-art navigator of future technology, it acts as a gateway to a world of diverse experiences. This
-          remarkable feature permits you to move between different interest communities with absolute ease and without
-          the slightest effort. You can explore various realms of interest, freely transitioning from one to another.
-          Moreover, you have the opportunity to customize your exclusive profile in a highly personalized manner. By
-          doing so, you can showcase your truly unique interest spectrum, highlighting your individual passions and
-          pursuits. At the same time, you can also display your captivating personality allure, allowing others to get a
-          glimpse of your distinct charm and charisma.
+          We will employ your information to fulfill and enforce our Terms and Conditions of Use, and to enhance our
+          Platform and tailor your advertising experience. We may use the information we receive from you to:
+        </p>
+        <p class="desc">(1) Enable you to access your information smoothly after logging in.</p>
+        <p class="desc">
+          (2) Keep in memory information so you don't have to enter it anew during your current visit or on your
+          subsequent visit to the Service.
+        </p>
+        <p class="desc">
+          (3) Offer personalized content and information to you and others, which may consist of tailor-made content,
+          online commercials or other marketing means.
+        </p>
+        <p class="desc">(4) Supply, ameliorate, examine and oversee the effectiveness of our Service.</p>
+        <p class="desc">(5) Invent and trial new products and traits.</p>
+        <p class="desc">
+          (6) Monitor indicators such as the total number of visitors, traffic flow, and demographic configurations.
+        </p>
+        <p class="desc">
+          (7) Detect and resolve technical glitches, fulfill requests for products, services, Platform capabilities,
+          support and information for internal operations, including troubleshooting, data assessment, testing,
+          research, statistical analysis, and survey aims and solicit your response.
+        </p>
+        <p class="desc">
+          (8) Automatically update the Telo application on your device. Telo or other users may organize competitions,
+          special deals or other events or activities ("Events") on the Service. If you don't desire to participate in
+          an Event, don't use the particular metadata (for instance, hashtag or geotag) associated with that Event.
+        </p>
+        <p class="desc">(9) Aid us in spotting improper use, deception and illegal actions on the Platform.</p>
+        <p class="desc">(10) Ensure that you are of an adequate age to utilize the Platform (as mandated by law).</p>
+        <p class="desc">
+          (11) Could make use of the material you post in the open access areas of Telo in advertising and promotional
+          materials on our partner sites and partner products.
+        </p>
+        <p class="desc">
+          (12) Integrate all the information we collect or receive about you for any of the previously mentioned
+          purposes.
+        </p>
+        <p class="desc">
+          (13) For any other purposes revealed to you at the time we gather your information or in accordance with your
+          assent.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">Information We Collect</p>
+        <p class="title">3.How We Communicate Your Information.</p>
         <p class="desc">
-          We accumulate a large amount of information in the following areas: Information that you offer voluntarily.
-          This includes details you provide when signing up, filling out forms, or sharing your preferences. Information
-          that we obtain when you utilize our services. As you interact with our platform, we collect data on your
-          activities, such as the pages you visit, the actions you take, and the time you spend on different features.
-          Information that we acquire from third parties. We may receive additional data from external sources, which
-          can help us enhance our understanding of your needs and interests and provide you with a more personalized
-          experience. Here's a more in-depth examination of each category.
+          We are committed to maintaining your trust and ensuring the safety of your personal information. We will not
+          provide, disclose or transfer your personal information to any third parties without your consent or unless it
+          is permitted by applicable laws. Service Providers and Business Partners: When you use the services of our
+          business partners or those provided by service providers, we may share the categories of personal information
+          mentioned above with service providers and business partners to help us conduct business operations and
+          achieve business goals, including research, payment processing and transaction fulfillment, database
+          maintenance, managing contests and special offers, technology services, deliveries, email distribution,
+          advertising, analysis, measurement, data storage and hosting, disaster recovery, search engine optimization,
+          marketing, and data processing. In particular, for targeted advertising, we engage third-party advertising
+          companies to show ads when you use our app. These companies may use information about your visits to this and
+          other websites to provide advertisements for goods and services that may interest you. Within Our Corporate
+          Group: We may share your information with a parent company, subsidiary, or other affiliated entity of our
+          corporate group for improved service. We will take measures to ensure that our group companies with which
+          personal information is shared comply with this policy. Succession of Business: If there is any business
+          transaction between companies related to our business to which this policy applies, such as acquisition,
+          merger or change of business entity, personal information may be transferred to the business successor to the
+          extent permitted by applicable laws. For Legal Reasons: Telo also aims to maintain a healthy community and
+          will cooperate with all third parties to enforce their intellectual property or other rights. We might
+          disclose your information in response to subpoenas, court directives, legal procedures, requests from law
+          enforcement agencies, legal claims, or government inquiries. This is done to safeguard and defend the rights,
+          interests, safety, and security of Telo, the Platform, our affiliated entities, users, or the public.
+          Additionally, we may share your information to enforce the terms applicable to the Platform, exercise or
+          defend any legal claims, and comply with any applicable law as we see fit. We will also collaborate with law
+          enforcement inquiries both within and outside your country of residence. When we have a bona fide belief that
+          disclosure is mandated by law or when we, at our discretion, consider that disclosure is necessary to protect
+          our legal rights or those of third parties and/or to comply with a judicial proceeding, court order, or legal
+          process served on us. In such instances, we may either raise or waive any legal objection or right at our
+          disposal. With Your Approval We may share information for other purposes based on your consent or with your
+          additional instructions. If you access third-party services like Apple, Facebook, Google, or Twitter to log in
+          to the Platform or share information about your usage on the Platform with others, these third-party services
+          may be able to gather information about you, including details about your activity on the Platform. They may
+          also inform your connections on the third-party services about your use of the Platform in accordance with
+          their privacy policies. We may share aggregated information with parties such as Facebook that contains your
+          personal information (but does not directly identify you), along with other information including log data
+          with third parties for industry analysis, demographic profiling, and to provide targeted advertising about
+          other products and services. To ensure that you get to meet as many people as possible on Telo, other users
+          will have the opportunity to check the information you post on your Profile, including photos if you select
+          the 'Public' access setting. If you choose to engage in public activities on the Platform, you should be
+          careful when disclosing personal information. We are not responsible for the information you choose to submit.
+          Any information you choose to provide should reflect how much you want other Telo users to know about you. And
+          you should be aware that any information you share may be read, collected, or used by other users. However,
+          you can also choose to limit the visibility scope of your information on the "Settings" page.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">Information You Provide</p>
+        <p class="title">4.Your Rights</p>
         <p class="desc">
-          When you visit and interact with Telo's app and service, you provide us with personal information. This
-          personal information can encompass a wide range of details. For instance, it may include your name, which is a
-          fundamental identifier that helps us address you and distinguish you from other users. Your profile picture is
-          another important element. It gives a visual representation of you and can make it easier for others to
-          recognize you within the service. Additionally, your birth date can provide some context about your age group
-          and might be used for certain age-appropriate features or content. Your phone number is also a valuable piece
-          of information that can be used for verification purposes or for communication if needed. This information may
-          be shared with your contacts on our service. This sharing can enhance the connectivity and social aspect of
-          the platform, allowing you to easily connect and interact with people you know. However, you have control over
-          and can modify your profile. This means that you can update your information as needed, change your profile
-          picture to reflect a different mood or stage in your life, or adjust other details to ensure that your profile
-          accurately represents you. If you register with Facebook, we may store your ID and token. This enables a
-          seamless integration between our service and your Facebook account, making it easier for you to log in and
-          access our platform. However, your profile is accessible to connected users and can be discovered unless you
-          opt out. This gives you the choice to decide whether you want your profile to be visible to others or not. You
-          can also share your device's contacts list. This can be a convenient way to find and connect with friends who
-          are also using the service. But if you don't want us to store it, you can opt out at any time. It's important
-          to remember that any content you send through the service can be saved or copied. This could be messages,
-          posts, or other forms of communication. So, be cautious about what you share. When you contact support or
-          communicate with us in any other way, we collect the information you voluntarily provide. This helps us better
-          understand your issues and concerns and respond to you more effectively.
+          As permitted by applicable laws, with regard to your personal information that we process, you have the right
+          to access it, the right to make corrections, the right to have it erased, the right to restrict processing,
+          the right to withdraw your consent, the right to data portability, the right to confirm if we are processing
+          any of your personal information, and the right to request a review of any automated decisions resulting from
+          the processing. Moreover, we will not discriminate against you for exercising any of these rights. However,
+          please note that if you provide your gender information, you only have one opportunity to change it. After
+          verifying your identity, we will respond to your request within a reasonable time period and in accordance
+          with relevant laws. However, if permitted by applicable laws, we may not be able to respond to your request in
+          the following circumstances: <p class="desc">• It is likely to harm the life, body, property, or other rights or interests of
+          you or another individual/user. </p><p class="desc">• It is likely to seriously hinder the proper execution of our business. </p><p class="desc">• It
+          is likely to violate other laws and regulations. </p><p class="desc">• When you fail to verify your identity. </p><p class="desc">• We are otherwise
+          permitted by applicable laws to refuse your request. However, withdrawing your consent will in no way affect
+          the lawfulness of our processing of your personal data based on your consent given before the withdrawal.
+        </p>
+      </p>
+      </div>
+      <div class="phrase">
+        <p class="title">5.Data Storage</p>
+        <p class="desc">
+          We might keep your personal data outside the country or area where you live. When this takes place, we will
+          adopt measures to guarantee that your personal information is handled and stored in line with applicable laws.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">Info We Get From Your Use Of Our Services</p>
+        <p class="title">6.Security</p>
         <p class="desc">
-          When you use our services, we collect info on usage (e.g., filter use), device info (e.g., model, OS), user
-          content, device phonebook with consent, location with consent, info via cookies/tech, log info, and keep
-          records if you contact us.
+          How does Telo ensure the safety of my personal information? Telo has adopted reasonable and proper security
+          measures to safeguard and prevent the loss, misappropriation, and alteration of the information under our
+          jurisdiction, including your personal information. Telo utilizes reasonable security means to maintain the
+          confidentiality of your personal information, such as secure servers equipped with firewalls. The technical
+          experts at Telo strive hard to guarantee your secure utilization of our site. Although we take reasonable
+          preventive measures against possible security breaches of our website, member database, and records, no
+          website or Internet transmission is entirely secure, and we cannot guarantee that unauthorized access,
+          hacking, data loss, or other violations will never occur. We urge you to take steps to keep your personal
+          information secure (including your password) and log out of your account after usage. We cannot guarantee the
+          security of your personal data during its transmission to our site, and any transmission is at your own risk.
+          Once we receive your information, we have procedures and security features in place to try to prevent
+          unauthorized access. How can you help maintain the security of your information? You must not reveal your
+          password to any third parties or share it with them. If you lose your password or give it away, your personal
+          information may be endangered. In such a case, please report it to Support through Feedback. You must change
+          your password immediately through your “Settings” page. Telo cannot be held accountable for your failure to
+          keep your password secure, and failure to do so may violate our Terms and Conditions of Use.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">Info We Gather from Third Parties</p>
+        <p class="title">7.Cookies and other technologies</p>
         <p class="desc">
-          We collect info from third parties. Other users may provide info about you when using our services. E.g., if a
-          user allows us to collect from their phonebook and you're in their contacts, we may combine it. We may also
-          get info from our other companies or third-party sources and combine it with our collected info.
+          The Platform is not targeted at children under 18 years old. If we find out that personal information of a
+          person under 18 has been collected on the Platform, we will remove this information and close the person’s
+          account.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">How We Use Information</p>
+        <p class="title">8.Disclaimer</p>
         <p class="desc">
-          What precisely do we do with the gathered information? In short, we employ this information to supply you with
-          excellent products and services and ceaselessly work on enhancing them. We are involved in the development,
-          operation, improvement, delivery, upkeep, and protection of our products and services. Additionally, we
-          correspond with you to keep you updated and handle your inquiries. We observe and analyze trends and usage
-          behaviors to better comprehend your requirements and inclinations. We customize our services to provide a more
-          individualized experience. We strengthen safety and security measures to safeguard your data and ensure a
-          secure environment. We confirm your identity and take measures to prevent deception. We utilize cookie data to
-          further improve our services. Furthermore, we enforce our terms of service to maintain a just and orderly
-          platform. We may also store some of the information locally on your device for convenient access and enhanced
-          performance.
+          Cookies and other techniques For the application to operate efficiently, we occasionally place small data
+          records named cookies on your device. Most application creators do this. A cookie is a small text record that
+          a website stores when you visit it. It allows the website to recall your actions and preferences, aiming to
+          improve the user experience. You can determine whether to accept cookies through settings or by utilizing
+          other tools. However, if you deactivate cookies or limit the ability to set cookies, you may not be able to
+          enjoy the complete advantages of our services or access all of its functions, which may restrict your overall
+          user experience. Other techniques We may install modules of other companies in Telo to analyze how the service
+          and product are utilized or provided. Regarding your personal information processed by a third party through a
+          module provided by that third party, the privacy policy of that third party will be applicable and we also
+          encourage you to review it.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">How We Share Information</p>
+        <p class="title">9. Minors</p>
         <p class="desc">
-          In specific circumstances, we might share your personal information with third-party service providers. There
-          are several ways in which we may share information about you. With other users: We may share your username,
-          your name, and information about your interactions. This sharing helps other users understand the connections
-          between them and you. Additionally, we may share additional information with your explicit consent. With all
-          users and the public: We may share public information such as profile pictures that you have submitted to
-          Local. This allows for a more open and connected community experience. With our affiliates: We may share
-          information within the Telo family of companies. This sharing enables us to provide better services and a more
-          seamless experience across different platforms and entities within our corporate structure. With third
-          parties: We may share your information with service providers, sellers, and partners. This sharing is done to
-          ensure the smooth operation of our services and to provide you with the best possible experience. We may also
-          share your information for legal reasons, such as complying with court orders or responding to legal
-          investigations. In the event of a merger or acquisition, we may share your information with the acquiring
-          company or entity. Additionally, we may share aggregated or de-identified information, which cannot be used to
-          identify you individually. You give your consent that the information provided when you register and the
-          content you create can be recorded, stored, published, and made available to other users. This consent is an
-          important part of our community and helps to foster interaction and collaboration. Your information may be
-          stored and processed in any country where we provide our service. This is necessary to ensure the availability
-          and functionality of our services on a global scale. If you do not agree with this privacy policy, please do
-          not use our service. By using our service, you are indicating your acceptance of this privacy policy and the
-          terms and conditions it contains.
+          You declare and guarantee that you possess the appropriate capacity and legal competence necessary for using
+          Telo. The platform is not targeted at minors. If we discover that personal information has been gathered on
+          the platform from a person who is a minor, we will erase this information and terminate the person's account.
         </p>
       </div>
       <div class="phrase">
-        <p class="title">Information You Choose to Share with Third Parties</p>
+        <p class="title">10. Disclaimer</p>
         <p class="desc">
-          The services that we provide may contain third-party links, search results, integrations, or may even be
-          co-branded. When you utilize these features, there is a possibility that you may provide information either to
-          the third party or to us. It is important to note that we cannot be held responsible for the manner in which
-          third parties collect or use your information. Each third party has its own unique privacy practices and
-          policies, and these may vary significantly from ours. When you click on a third-party link, interact with a
-          third-party search result, or engage with an integrated service or a co-branded offering, you are essentially
-          entering into a relationship with that third party. As a result, the collection, storage, and usage of your
-          information are governed by the privacy policies of that particular third party. We strongly encourage you to
-          review the privacy policies of all third-party sites and services that you interact with through our platform.
-          This will help you understand how your information is being handled and give you the opportunity to make
-          informed decisions about sharing your data. By being aware of the privacy practices of these third parties,
-          you can take steps to protect your personal information and ensure that it is used in a manner that is
-          consistent with your expectations. Remember, while we strive to provide a secure and reliable service, we
-          cannot control the actions of third parties. Therefore, it is essential that you exercise caution and due
-          diligence when interacting with third-party offerings to safeguard your privacy and the security of your
-          personal information.
+          You can make use of our instant messaging feature, which allows you to communicate with other Telo users.
+          Nevertheless, we suggest and encourage you (and all our users) to think thoroughly about the disclosed
+          information of other users. We also don't recommend that you include email addresses, URLs, instant messaging
+          specifics, phone numbers, full names, addresses, credit card details, national identity numbers, drivers'
+          license details, and other sensitive information in your profile as it is likely to be misused and
+          misappropriated. Moreover, be careful when putting sensitive details about yourself on your profile, such as
+          your religious belief and health information. Although you may voluntarily provide this information to us when
+          setting up your profile, including your sexual preference and ethnic background, there is no obligation to do
+          so. Remember that any photographs or video clips you post on Telo may expose these kinds of sensitive personal
+          data. When you upload and post this sensitive information about yourself, you are explicitly consenting to our
+          processing of your information. And you will be doing this at your own peril. If you post anything that
+          doesn't comply with our Terms and Conditions of Use, we reserve the right to deactivate your account.
         </p>
       </div>
-      <div class="phrase">
-        <p class="title">How Long We Keep Your Content</p>
-        <p class="desc">
-          You should be acutely aware that users who have the opportunity to view your content possess the ability to
-          save it through a variety of means. There are numerous ways in which this can occur, and it is not always
-          possible for us to anticipate or prevent every possible method of saving. For instance, users may use
-          screenshotting tools, download functions provided by their devices or browsers, or employ other software or
-          techniques to capture and store your content. Moreover, it is entirely possible for someone to access messages
-          through forensic techniques. These techniques can be employed by individuals with a certain level of technical
-          expertise and may involve analyzing data on a device or in a network to uncover previously sent or received
-          messages. Additionally, messages may sometimes be found in a device's temporary storage. This can happen due
-          to various reasons, such as caching or incomplete deletion processes. Temporary storage on a device can hold
-          onto data for a period of time, even after you may have thought it was deleted. In the event of the deletion
-          of user information from our App, we cannot guarantee that it will occur within a specific time period. The
-          deletion process can be complex and may depend on a number of factors, including the volume of data being
-          processed, the efficiency of our systems, and any potential technical glitches or delays. Additionally, even
-          after we initiate the deletion process, there may be a lag time before the information is completely removed
-          from all of our servers and storage systems. We might also retain some information in backup for a limited
-          duration. This is often done for reasons such as disaster recovery, ensuring the integrity of our services, or
-          to comply with legal requirements. The length of time for which we retain backup information can vary
-          depending on our internal policies and any legal mandates. In some cases, we may be required by law to retain
-          certain types of information for a specific period of time. This could be for regulatory purposes, to assist
-          in investigations, or to meet other legal obligations. So, while we take steps to protect your privacy and
-          manage user information as carefully as possible, it is important to understand that there are limitations and
-          uncertainties regarding the deletion and retention of your data.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">How We Protect Your Information</p>
-        <p class="desc">
-          Protecting user privacy and personal details holds an extremely high level of significance. It is a
-          fundamental priority for us. We handle your personal information with the utmost care and diligence for
-          several crucial purposes. Firstly, we do so to enhance and enforce security measures within our systems. This
-          includes taking proactive steps to safeguard against potential threats and vulnerabilities. By handling your
-          personal information in a responsible manner, we are able to implement stronger security protocols and
-          safeguards. We also combat spam, malware, malicious activities, and security risks. Your personal information
-          helps us identify and address these threats more effectively. By analyzing patterns and behaviors associated
-          with your data, we can detect and prevent spam emails, malicious software, and other malicious activities that
-          could compromise the security and integrity of our platform. In addition, we monitor and verify your identity
-          to prevent unauthorized access. This is essential to ensure that only you and those authorized by you have
-          access to your account and personal information. By implementing identity verification processes, we can
-          reduce the risk of identity theft and unauthorized access to your data. Access to user information is strictly
-          restricted to our employees, contractors, agents, and third-party service providers who have a legitimate need
-          for it. These individuals and entities are required to access user information in order to provide, operate,
-          develop, maintain, support, and optimize our service and security. We have strict access controls and security
-          measures in place to ensure that only those with a legitimate need can access user information and that they
-          do so in a secure and responsible manner. We utilize a variety of measures to safeguard user information.
-          Password protection is a fundamental security measure that helps ensure only authorized users can access your
-          account. We also maintain access logs to track who has accessed user information and when. This allows us to
-          monitor and detect any unauthorized access attempts. Additionally, we implement system monitoring to detect
-          and respond to potential security threats in real time. However, due to the complex and ever-changing nature
-          of the internet and related technologies, we cannot guarantee absolute protection against loss, misuse, or
-          alteration of user information. While we take extensive measures to protect your data, there are always risks
-          associated with the digital environment. Hackers, malware, and other threats can evolve and adapt, making it
-          difficult to provide 100% certainty of protection. Nevertheless, we are committed to continuously improving
-          our security measures and staying vigilant in the face of emerging threats to ensure the best possible
-          protection for your personal information.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">Control over Your Information</p>
-        <p class="desc">
-          We are committed to providing you with control over your personal information by offering various tools. For
-          instance, we provide access to and the ability to update your information (although there may be certain
-          limitations. This can be accessed via the app's Settings section or by making a request. In some cases,
-          identity confirmation may be required to ensure the security and integrity of your data). You also have the
-          option to revoke permissions for certain data sources by adjusting the settings on your device. Additionally,
-          we offer the possibility of erasure of your data (again, with some limitations). We also allow for restriction
-          on the processing of your information and give you the right to object to the processing of your data under
-          specific circumstances.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">Data Removal</p>
-        <p class="desc">
-          You have the option to remove your data. If you request to delete your account, we will make every effort to
-          fulfill your request while also adhering to legal requirements. However, it should be noted that deleting your
-          account may result in an inability on our part to provide certain services to you. To erase your data, you can
-          tap on “Me - Settings - Delete account”. When you initiate this process, we may ask for identity verification
-          or additional information to ensure the security and proper handling of your request. This is done to protect
-          your data and prevent unauthorized access or deletion.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">Analytics and Advertising Services Provided by Others</p>
-        <p class="desc">
-          We may, under certain circumstances, permit other companies to utilize tracking technologies on our services.
-          These companies are then able to collect information on your usage patterns over an extended period of time
-          and across multiple services. The purposes for which they collect this information can be diverse, including
-          but not limited to serving targeted advertisements. As of now, Telo does not respond to do-not-track signals.
-          However, if at any point in the future we decide to respond to such signals, this will be clearly stated in an
-          updated version of our privacy policy. This will ensure that you are informed of any changes in our approach
-          to handling do-not-track requests and that your privacy is protected to the greatest extent possible.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">Children</p>
-        <p class="desc">
-          Our services are meticulously crafted and specifically aimed at users who have reached the age of 18 or above.
-          We do not direct our services towards anyone younger than 18 years old. As a result, we are exceptionally
-          cautious and take every possible measure to guarantee that we do not intentionally gather any personal data
-          from individuals who are under the age of 18.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">Revisions to the Privacy Policy</p>
-        <p class="desc">
-          We may revise this privacy policy on a regular and periodic basis. When we undertake such revisions, we will
-          make sure to inform you through one method or another. At certain times, we will notify you by making
-          modifications to the date that appears at the top of the privacy policy which can be easily accessed on both
-          our website and mobile application. On other occasions, we may provide you with additional forms of notice.
-          For example, we might add a prominent statement to the homepages of our websites to ensure that you are aware
-          of the changes. Or we could give you an in-app alert to draw your attention to the updated privacy policy.
-        </p>
-      </div>
-    </div> -->
+    </div>
   </div>
 </template>
 <script lang="ts" setup>

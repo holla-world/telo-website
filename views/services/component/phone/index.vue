@@ -11,285 +11,104 @@
         alt=""
       />
     </div>
-    <!-- <div class="content">
+    <div class="content">
+      <p class="content_title">Terms of Service</p>
       <div class="phrase">
-        <p class="title">Telo Terms of Service</p>
-        <p class="desc">
-          Hello! This is Telo. We have formulated these Service Terms (“Terms”) so that you are cognizant of the
-          regulations governing our relationship. We have endeavored to reduce the usage of legal terminology as much as
-          possible, but there may still be some portions that resemble a traditional contract. Kindly peruse them
-          attentively. By availing yourself of our services, you are signifying your assent to these Terms. If you do
-          not concur, please refrain from utilizing the services. The following Service Terms encompass your obligations
-          when using our mobile application (“App”) or service (as defined herein), or any content that is generated or
-          furnished by or through the App or service. They also apply when you vend products on the App and create User
-          Contributed Content (as defined herein). Additionally, please examine our Privacy Policy, which is an integral
-          part of these Terms and elucidates how we handle your personal information. Thoroughly read these Service
-          Terms before using the App or service. By accessing the App or employing any part of the service, you are
-          agreeing to these terms. If you do not agree, do not access the App or utilize the service. Nothing in this
-          agreement bestows rights or advantages upon third parties. NEGOTIATION NOTE: These Terms contain an
-          arbitration clause later on. With the exception of certain disputes mentioned therein, you and Telo agree to
-          resolve disputes through mandatory binding arbitration and waive the right to participate in class-action
-          lawsuits or class-wide arbitration.
-        </p>
+        <p class="title">1.Sharing Your Content and Information</p>
+        <p class="desc">You can post various things ("Content") on Telo. You hold ownership of all the content and information you post on Telo, and you can control how it is shared through your "Privacy" and "Application Settings". However, there are certain rules regarding what is acceptable. When using Telo, you should not post or send any Content that:</p>
+        <p class="desc">(1). contains vulgar language or expressions that could be considered offensive or are likely to harass, distress, embarrass, alarm, or annoy any other person;</p>
+        <p class="desc">(2). is lewd, pornographic, or otherwise may violate human dignity;</p>
+        <p class="desc">(3). is derogatory, insulting, or threatening, or promotes or encourages racism, sexism, hatred, or bigotry;</p>
+        <p class="desc">(4). encourages any illegal activity including, without limitation, terrorism, inciting racial hatred, malicious content, or the submission of which in itself constitutes a criminal offense;</p>
+        <p class="desc">(5). is slanderous;</p>
+        <p class="desc">(6). pertains to commercial activities (including, without limitation, sales, competitions, advertising, links to other websites or premium line telephone numbers);</p>
+        <p class="desc">(7). involves the transmission of "junk" mail or "spam";</p>
+        <p class="desc">(8). contains any spyware, viruses, corrupt files, worm programs, or other malicious code designed to disrupt, damage, or limit the functionality of or interfere with any software, hardware, telecommunications, networks, servers, or other equipment, a Trojan horse, or any other material designed to damage, interfere with, wrongly intercept, or expropriate any data or personal information whether from Telo or otherwise;</p>
+        <p class="desc">(9). itself, or the posting of which, violates any third party's rights (including, without limitation, intellectual property rights and privacy rights);</p>
+        <p class="desc">(10). depicts drugs or drug use;</p>
+        <p class="desc">(11). shows political content;</p>
+        <p class="desc">(12). shows another person who was created or distributed without that person's consent;</p>
+        <p class="desc">(13). other contents that, in the judgment of Telo, are negative or otherwise not suitable for dissemination; </p>
+        <p class="desc">(14). contains information, comments, or any other forms of content about a person under 18 years old.</p>
+        <p class="desc">(15). We always value your feedback or other suggestions regarding Telo, but you understand that we may use your feedback or suggestions without any obligation to compensate you for them (just as you have no obligation to provide them).</p>
+        <p class="desc">Please exercise common sense when selecting the Content you choose to post on or send via Telo because you are solely responsible for and bear all liability in relation to such Content.</p>
       </div>
       <div class="phrase">
-        <p class="title">1.Service Eligibility</p>
-        <p class="desc">
-          Individuals who are under the age of 18 are prohibited from creating an account or utilizing the services.
-          Certain additional services might demand that you be of a greater age. Thoroughly peruse all the terms. You
-          possess the ability to enter into a contractual agreement with Telo. You will adhere to these terms as well as
-          all applicable laws. In case the services are being used for a business or an entity, you must have the
-          necessary authorization. For government entities of the United States or China, follow the amendment. Those
-          under 18 years of age are not permitted. You affirm and guarantee that you are at least 18 years old. In the
-          event that this is false, Telo shall not be held responsible. Are you under 18? If so, you can only use the
-          services with the approval of a parent or guardian and discuss the terms with them.
-        </p>
+        <p class="title">2. Safeguarding Others' Rights</p>
+        <p class="desc">We respect the rights of others and make every effort to keep Telo secure. We expect you to do the same.</p>
+        <p class="desc">(1). You must not post content or take any actions on Telo that violate someone else's rights or break the law.</p>
+        <p class="desc">(2). If we believe that the content or information you post on Telo violates these Terms or our policies, we can remove it.</p>
+        <p class="desc">(3). If we remove your content for infringing someone else's copyright and you think we made a mistake, we will give you an opportunity to appeal.</p>
+        <p class="desc">(4). If you repeatedly violate other people's intellectual property rights, we will disable your account when appropriate.</p>
+        <p class="desc">(5). You must not use our copyrights or trademarks or any marks that are confusingly similar, except as expressly permitted with our prior written consent.</p>
+        <p class="desc">(6). If you collect information from users, you must: obtain their consent, make it clear that you (and not Telo) are collecting their information, and post a privacy policy explaining what information you collect and how you will use it.</p>
+        <p class="desc">(7). You must not post anyone's identification documents or sensitive financial information on Telo.</p>
+        <p class="desc">(8). You must not tag users or send email invitations to non-users without their consent.</p>
       </div>
       <div class="phrase">
-        <p class="title">2.Rights Granted to You</p>
-        <p class="desc">
-          Telo bestows upon you a personal, non-transferable, and revocable license to access and make use of the
-          services in accordance with these Terms. Our software may automatically download enhancements. You can manage
-          this setting in the device's settings. Do not copy, modify, or otherwise alter our services. Reverse
-          engineering is not allowed without permission, except when permitted by law.
-        </p>
+        <p class="title">3. Registration and Account</p>
+        <p class="desc">Telo users need a nickname, age, gender, avatar, and other optional information. We need your help to maintain this. We offer three ways to access Telo: Facebook, Google, and SMS. Here are some commitments you make to us regarding registering and maintaining the security of your account:</p>
+        <p class="desc">(1). If you are under 18, you cannot use Telo.</p>
+        <p class="desc">(2). You must not transfer your account to anyone without first obtaining our written permission.</p>
+        <p class="desc">(3). You must not provide false personal information on Telo or create an account for anyone other than yourself without permission.</p>
+        <p class="desc">(4). If we disable your account, you can only post content to contact the official assistant called "Telo Team".</p>
+        <p class="desc">(5). We reserve the right to delete or ban your account if we deem it appropriate.</p>
       </div>
       <div class="phrase">
-        <p class="title">3.Rights Granted to Us</p>
-        <p class="desc">
-          A significant number of our services enable you to create and store content. You retain ownership rights;
-          however, you grant us a license to use it. For all of our services, Telo holds a license to utilize, display,
-          and perform other actions with your content for the purpose of improving the services. For public services
-          such as Local, the license is more extensive. We are able to use your content in a variety of manners. We may
-          review and remove your content if it violates the terms and conditions. You are accountable for your own
-          content. Our services may contain advertisements. By using our services, you give your consent to the presence
-          of ads. We highly appreciate feedback, but we can use it without compensating you.
-        </p>
+        <p class="title">4. Termination</p>
+        <p class="desc">If you violate the Terms or otherwise create risks or possible legal exposures for us, then we reserve the right, at our sole discretion, at any time and without liability or the need to give you prior notice or refund any unused services, to:</p>
+        <p class="desc">(1). suspend or revoke your registration (if applicable) and your right to access and/or use Telo or submit any content to Telo; </p>
+        <p class="desc">(2). utilize any operational, technological, legal, or other available means to enforce the Terms (including without limitation blocking specific IP addresses).</p>
+        <p class="desc">We will attempt (but we are not obligated) to notify you if your access to Telo and/or your profile is to be or has been suspended or terminated.</p>
+        <p class="desc">If you have registered on Telo, you can terminate your registration at any time by going to the "Settings" control on Telo when you are logged in and choosing the "Delete Account" link. We save your profile information in case you later decide to restore your account. Many users deactivate their accounts for temporary reasons and expect us to maintain their information until they return to Telo. Therefore, you will be able to restore your account and your profile in its entirety within 30 days of deactivating it. Once your registration is terminated, we have the right to delete any related content that you have submitted or uploaded onto Telo. For more details, please refer to our Privacy Policy. Content that you have uploaded to Telo, other than your profile (such as moments, comments, or contacts), may still appear on Telo after the termination of your registration.</p>
       </div>
       <div class="phrase">
-        <p class="title">4.Third-Party Content</p>
-        <p class="desc">
-          A large portion of the content in our service is provided by users and third parties. They are responsible for
-          their respective content. Telo may conduct reviews, but not all content is examined. We cannot be held liable
-          for the content provided by others. We do not endorse user-generated content. Relying on it is at your own
-          risk.
-        </p>
+        <p class="title">5.In-App Purchases and Subscriptions</p>
+        <p class="desc">In-App Purchases. From time to time, Telo may offer additional products and services for acquisition through the App Store ℠, Google Play or other application platforms ("in-app acquisitions"). If you opt to make an in-app acquisition, you will be prompted to enter details for your account with the mobile platform you are utilizing (e.g., Apple, Android, etc.) ("your IAP Account"), and your IAP Account will be billed for the in-app acquisition in accordance with the terms disclosed to you at the time of purchase as well as the general terms for in-app acquisitions that apply to your IAP Account. If you purchase an auto-recurring periodic subscription through an in-app acquisition, your IAP Account will be continuously charged for the subscription until you cancel in accordance with the platform terms. In all cases, please refer to the terms of your application platform which apply to your in-app acquisitions.</p>
       </div>
       <div class="phrase">
-        <p class="title">5.Privacy</p>
-        <p class="desc">
-          Your privacy holds significant importance and is something that we take very seriously. It is crucial for you
-          to read our privacy policy thoroughly in order to gain a comprehensive understanding of exactly how we handle
-          your personal information. When you utilize our services, it inherently implies that you are giving your
-          explicit consent to our handling of your data. We are committed to ensuring the security and proper management
-          of your information, and our privacy policy outlines the measures we take to protect your privacy while
-          providing you with the best possible service experience.
-        </p>
+        <p class="title">6.What Can I Obtain at Telo?</p>
+        <p class="desc">Telo provides you with the opportunity to pay for certain services offered on the site. Telo’s VIP services encompass various opportunities to find and encounter additional people, to customize your profile and to enhance your profile so that more people discover you. Telo also offers the ability to play various games on the site. All of these VIP services can be purchased after you register, and you may subscribe to the VIP services for various durations. Once you have paid for any VIP services, they are non-refundable. You can alter your Auto Top-up at any time in your payment settings on your profile page. The pricing may vary due to a number of factors, such as (but not limited to) promotional offers, loyalty bonuses and other discounts that might apply to your age group.</p>
       </div>
       <div class="phrase">
-        <p class="title">6.Respecting Rights</p>
-        <p class="desc">
-          Telo holds a deep respect for the rights of others; likewise, you are expected to do the same. Do not upload
-          any content that infringes upon rights, engages in bullying behavior, or any other inappropriate actions.
-          Additionally, respect Telo's rights as well. Do not use our branding or any other intellectual property
-          without obtaining proper permission. We have the right to remove user content that violates our terms and
-          conditions. We may access information as required for legal or security purposes. We cannot be held liable for
-          offensive or inappropriate content. Use our services at your own risk.
-        </p>
+        <p class="title">7.How Do I Renew My VIP Services with Telo?</p>
+        <p class="desc">Once you have requested a Telo VIP Service, you authorize Telo to charge your chosen payment method. If you wish to cancel or change your payment method at any time, you can do so either via the payment settings option under your profile or by contacting your mobile service provider. If your chosen payment method is via your mobile service provider, then please check with them about their payment terms, as their payment terms will govern how payments to Telo are made as well as how such payments may be changed or cancelled. Your subscription to Telo’s VIP services will automatically renew until you decide to cancel, and if you have enabled the auto top-up feature, your account will automatically be replenished until you decide to disable this feature.</p>
       </div>
       <div class="phrase">
-        <p class="title">7.Copyright Respect</p>
-        <p class="desc">
-          You consent to only upload content for which you possess the appropriate permission to utilize and that does
-          not encroach upon the rights of others. Telo holds copyrights in high regard and strictly complies with the
-          Digital Millennium Copyright Act. In case you suspect any act of infringement, kindly report it and furnish
-          the necessary details.
-        </p>
+        <p class="title">8.Subscription Guidelines</p>
+        <p class="desc">(1). Subscription automatically renews unless auto-renew is disabled at least 24 hours before the end of the current period;</p>
+        <p class="desc">(2). Account will be charged for renewal within 24 hours prior to the end of the current period, and identify the cost of the renewal;</p>
+        <p class="desc">(3). Subscriptions can be managed by the user: auto-renewal can be turned off by going to the user‘s Account Settings after purchase;</p>
+        <p class="desc">(4). No cancellation of the current subscription is permitted during the active subscription period.</p>
       </div>
       <div class="phrase">
-        <p class="title">8.Safety</p>
-        <p class="desc">
-          We make every effort to maintain a safe environment, but we cannot guarantee it completely. By using the
-          services, you agree not to use them for illegal purposes, not develop unauthorized applications, not interfere
-          with others, not use the accounts of others, not post inappropriate content, not upload viruses, not bypass
-          filters, not test for vulnerabilities, and not encourage violations. We have the right to investigate and take
-          legal action against violations. Do not use the services in a way that distracts you from adhering to safety
-          laws.
-        </p>
+        <p class="title">9.Proprietary Rights Regarding Content on Telo</p>
+        <p class="desc">(1). Telo DOES NOT ASSERT ANY ownership entitlements in the text, documents, images, photographs, videos, sounds, musical compositions, literary works, applications, or any other materials (collectively, "Content") that you post on or via the Telo Services. By presenting or releasing ("posting") any Content on or through the Telo Services, you hereby grant Telo a non-exclusive, fully compensated and royalty-free, global, limited license to utilize, modify, remove from, add to, publicly perform, publicly exhibit, reproduce and translate such Content. This includes, without limitation, distributing part or all of the Site in any media format through any media channels. However, Content not shared publicly ("private") will not be distributed outside the Telo Services.</p>
+        <p class="desc">(2). You represent and guarantee that: (i) you own the Content posted by you on or through the Telo Services or otherwise have the right to grant the license specified in this section; (ii) the posting and use of your Content on or through the Telo Services does not violate the privacy rights, publicity rights, copyrights, contract rights, intellectual property rights or any other rights of any person; and (iii) the posting of your Content on the Site does not lead to a breach of contract between you and a third party. You agree to pay for all royalties, fees, and any other amounts owed to any person due to Content you post on or through the Telo Services.</p>
+        <p class="desc">(3). The Telo Services contain content belonging to Telo ("Telo Content"). Telo Content is safeguarded by copyright, trademark, patent, trade secret and other laws. Telo owns and retains all rights in the Telo Content and the Telo Services. Telo hereby grants you a limited, revocable, non-transferable license to reproduce and display the Telo Content (excluding any software code) solely for your personal use in connection with viewing the Site and using the Telo Services.</p>
+        <p class="desc">(4). The Telo Services contain content of Users and other Telo licensors. Except as provided within this Agreement, you may not copy, modify, translate, publish, broadcast, transmit, distribute, perform, display, or sell any Content appearing on or through the Telo Services.</p>
+        <p class="desc">(5). Telo performs technical functions necessary to provide the Telo Services, including but not limited to transcoding and/or reformating Content to enable its use throughout the Telo Services.</p>
+        <p class="desc">(6). Although the Site and other Telo Services are typically available, there will be times when the Site or other Telo Services will be interrupted for scheduled maintenance or upgrades, for emergency repairs, or due to failures of telecommunications links and equipment beyond Telo's control. Also, although Telo will normally only remove Content that violates this Agreement, Telo reserves the right to delete any Content for any reason without prior notice. Deleted content may be stored by Telo to comply with certain legal obligations and is not retrievable without a valid court order. Consequently, Telo encourages you to maintain your own backup of your Content. In other words, Telo is not a backup service. Telo will not be liable to you for any modification, suspension, or discontinuation of the Telo Services, or the loss of any Content.</p>
       </div>
       <div class="phrase">
-        <p class="title">9.Account</p>
-        <p class="desc">
-          You are fully responsible for the security and proper management of your account. It is essential that you
-          take all necessary measures to keep your account secure. Do not create multiple accounts without a legitimate
-          reason. Additionally, if your account has been disabled, do not attempt to create a new one without obtaining
-          proper permission. Under no circumstances should you sell access to your account or share your password with
-          others. Also, refrain from logging in to your account through unauthorized applications. By adhering to these
-          guidelines, you can help ensure the integrity and security of your account and the overall user experience on
-          our platform.
-        </p>
+        <p class="title">10.Disclaimer of Warranties and Limitation of Liability</p>
+        <p class="desc">To the greatest extent permitted by law, Telo explicitly disclaims:</p>
+        <p class="desc">(1). all conditions, representations, warranties and other terms that might otherwise be implied by statute, common law or the law of equity;</p>
+        <p class="desc">(2). any liability incurred by you resulting from the use of Telo, its services or these terms and conditions, including without limitation for any claims, charges, demands, damages, liabilities, losses or expenses of whatever nature and however direct, indirect, incidental, special, exemplary, punitive or consequential damages (however arising including negligence), loss of use, loss of data, loss caused by a computer or electronic virus, loss of income or profit, loss of or damage to property, wasted managerial or office time, breach of contract or claims of third parties or other losses of any kind or character, even if Telo has been informed of the possibility of such damages or losses, arising out of or in connection with the use of Telo. This limitation on liability applies to, but is not limited to, the transmission of any disabling device or virus that may infect your equipment, failure of mechanical or electrical equipment or communication lines, telephone or other interconnection issues (e.g., you cannot access your internet service provider), unauthorized access, theft, bodily injury (other than caused by our negligence), property damage, operator errors, strikes or other labor problems or any act of God in connection with Telo including, without limitation, any liability for loss of revenue or income, loss of profits or contracts, loss of business, loss of anticipated savings, loss of goodwill, loss of data, wasted managerial or office time and any other loss or damage of any kind, however arising and whether caused by tort (including, but not limited to, negligence), breach of contract or otherwise, even if foreseeable whether arising directly or indirectly.</p>
       </div>
       <div class="phrase">
-        <p class="title">10.Purchases and Payments</p>
-        <p class="desc">
-          Telo provides friendship-making services that can be acquired by using app gems. The handling of payments is
-          carried out by third-party service providers. Once a purchase is made, it is considered final and cannot be
-          refunded. Virtual products may be for single use or repeated use, but they can be modified or even eliminated.
-          Inactive accounts may have their free virtual coins frozen or suspended. Individuals under the age of 18
-          require the consent of a parent or guardian for making purchases. Telo is not engaged in the business of
-          providing money services. In-app purchases are made through authorized platforms and are subject to the terms
-          and conditions of those platforms. Generally speaking, charges for in-app purchases (IAP) are non-refundable,
-          although exceptions may occur in certain circumstances. For refund requests related to Apple ID subscriptions,
-          they should be processed through Apple. For Google Play subscriptions, contact Google Play customer support
-          for assistance.
-        </p>
+        <p class="title">11.Indemnification</p>
+        <p class="desc">You agree to safeguard, compensate and hold blameless Telo, its parent company, officers, directors, employees and agents from and against any and all claims, damages, obligations, losses, liabilities, costs or debts, and expenses (including but not limited to legal fees) resulting from: </p>
+        <p class="desc">(i) your use of and access to the Telo Service; </p>
+        <p class="desc">(ii) your violation of any provision of these Terms of Service;</p>
+        <p class="desc">(iii) your infringement of any third-party right, including without limitation any copyright, property, or privacy right; </p>
+        <p class="desc">(iv) any claim that one of your user status submissions caused harm to a third party. This obligation to defend and indemnify will endure these Terms of Service and your use of the Telo Service.</p>
       </div>
       <div class="phrase">
-        <p class="title">11.Subscription</p>
-        <p class="desc">
-          If you choose to purchase a Host Card subscription on a monthly basis, it is important to note that the
-          payment for this subscription will be handled by iTunes. Specifically, the payment will be processed through
-          the iTunes platform. Additionally, if you wish to disable the auto-renewal feature of this subscription, you
-          can do so by accessing the settings within iTunes. Once a purchased subscription has been activated, under no
-          circumstances is cancellation of that subscription allowed. This means that once you have initiated and
-          activated the subscription, you cannot request to cancel it and obtain a refund or discontinuation of the
-          service.
-        </p>
+        <p class="title">12.Modifications</p>
+        <p class="desc">We reserve the right to make alterations to these terms and offer you the opportunity to review and provide comments on the revised terms before continuing to utilize our Services. We may give notice on the Website if we make changes to policies, guidelines or other terms referenced in or incorporated by this Statement.</p>
       </div>
-      <div class="phrase">
-        <p class="title">12.Mobile Phones and Data Charges</p>
-        <p class="desc">
-          Users are held accountable for any mobile charges that may be incurred while they are utilizing the services
-          provided. In case users are uncertain about the potential mobile charges that might be incurred during the
-          usage of these services, it is advisable for them to check with their respective service providers. This way,
-          they can gain a clear understanding of any potential costs associated with using the services on their mobile
-          devices and make informed decisions regarding their usage.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">13.Third-Party Services</p>
-        <p class="desc">
-          If a user chooses to utilize third-party services through Telo, it is important to note that the terms and
-          conditions of those third-party services will govern the relationship between the user and the third-party
-          service provider. Telo has no control over and is not responsible for the terms and conditions set by
-          third-party service providers. Additionally, Telo cannot be held accountable for any actions taken by
-          third-party service providers. Telo merely acts as a platform through which users may access these third-party
-          services, but it does not have any influence over the terms or actions of these third-party entities.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">14.Modification of the Services and Termination</p>
-        <p class="desc">
-          Telo reserves the right to modify or terminate its services at any given time without prior notice. This means
-          that Telo can make changes to the services it offers or completely discontinue them without providing any
-          advance warning to the users. Moreover, Telo also has the authority to terminate the terms and conditions
-          governing its relationship with the user at any time. However, even in the event of such terminations, certain
-          sections, namely Sections 3, 6, 10, and Sections 13 through 21, will still remain applicable and continue to
-          govern the interactions and obligations to the extent permitted by law.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">15.Indemnity</p>
-        <p class="desc">
-          The user explicitly agrees to indemnify and hold harmless Telo and its affiliates from and against any and all
-          claims, losses, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) that may
-          arise in connection with the user's access to Telo's services, the content provided by the user, or any breach
-          of the terms and conditions by the user. This indemnification obligation is intended to protect Telo and its
-          affiliates from any legal consequences that may result from the user's actions or omissions while using the
-          services.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">16.Disclaimers</p>
-        <p class="desc">
-          The services provided by Telo are offered on an "as is" basis without any warranties, express or implied. Telo
-          makes no representations or warranties regarding the quality, reliability, availability, or functionality of
-          the services. Telo does not guarantee that the services will be free from errors, defects, or interruptions.
-          Additionally, Telo is not responsible for any content that appears on or is accessible through the services.
-          The user acknowledges that there is a possibility of being exposed to content that may be inappropriate,
-          offensive, or otherwise objectionable. Telo does not have control over the content generated by third parties
-          or users and cannot be held liable for any such content. The user assumes all risks associated with using the
-          services and accessing the content thereon.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">17.Limitation of Liability</p>
-        <p class="desc">
-          To the utmost degree allowed by applicable law, Telo and its connected entities shall not be accountable for
-          specific kinds of damages. Telo and its related parties offer no guarantees or statements concerning their
-          liability for any damages that might transpire. It is important to note that some exclusions of liability may
-          not be applicable in certain jurisdictions because of specific legal demands or restrictions. In such
-          instances, the degree of liability of Telo and its affiliated entities will be established in accordance with
-          the laws and regulations of the relevant jurisdiction.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">18.Arbitration, Class Waiver, and Jury Waiver</p>
-        <p class="desc">
-          For the majority of disputes, arbitration is mandatory except in the case of certain intellectual property
-          claims. The rules governing arbitration are determined by US Arbitration Law. Arbitration may be conducted
-          through the US International Economic Trade Arbitration Commission (USIETAC) or an alternative forum as deemed
-          appropriate. In the case of non-appearance arbitration, it can be carried out via phone, online, or through
-          written submissions. The arbitrator holds the authority to determine jurisdiction over the dispute and has the
-          power to grant appropriate remedies. Class actions or consolidated actions are waived, meaning that such forms
-          of legal action are not permitted. The arbitration proceedings are confidential in nature, ensuring that the
-          details of the dispute and its resolution remain private. Rights under the arbitration agreement can be waived
-          by the parties involved. Opting out of the arbitration agreement is possible within a period of 30 days. Small
-          claims court is also an available option for resolving disputes. Additionally, the arbitration agreement
-          remains in effect even after the termination of the relationship or agreement between the parties.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">19.Choice of Law</p>
-        <p class="desc">
-          These Terms and any disputes arising from or in connection with them are primarily governed by the laws of the
-          United States. This governance is carried out excluding the application of conflict-of-laws principles. In
-          other words, the legal framework that applies is that of the United States, and this is the case except when
-          there are specific provisions of US laws that override or take precedence over the general application of
-          these laws.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">20.Severability</p>
-        <p class="desc">
-          In the event that a particular clause within these Terms is found to be unenforceable for any reason, such as
-          being in violation of applicable laws or being deemed overly broad or otherwise unworkable, that clause will
-          be removed from the Terms. However, this removal will be done in such a way that it does not have any adverse
-          impact on the validity and enforceability of the remaining clauses. The remaining clauses will continue to be
-          in full force and effect and will be interpreted and applied as if the unenforceable clause had never been a
-          part of these Terms. This approach ensures that the overall intent and purpose of these Terms can still be
-          achieved to the greatest extent possible despite the removal of the unenforceable clause.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">21.Additional Terms for Specific Services</p>
-        <p class="desc">
-          For certain specific services provided under these Terms, additional terms and conditions may apply. These
-          additional terms are designed to address the unique characteristics and requirements of those particular
-          services. If a user engages in or makes use of the relevant specific services, these additional terms
-          automatically become an integral part of the overall agreement. This means that by availing themselves of the
-          specific services, users are deemed to have accepted and agreed to abide by not only the general terms but
-          also these additional terms specific to the particular services in question. The combination of the general
-          terms and the applicable additional terms for the specific services forms a comprehensive contractual
-          framework governing the user's interaction and use of those services.
-        </p>
-      </div>
-      <div class="phrase">
-        <p class="title">22.Final Terms</p>
-        <p class="desc">
-          These Terms represent the complete and entire agreement between the user and Telo. They supersede and replace
-          any and all previous agreements, understandings, or arrangements that may have existed between the parties.
-          These Terms are strictly between the user and Telo and do not create any third-party beneficiaries. In other
-          words, no third party can claim any rights or benefits under these Terms. If Telo fails to enforce a
-          particular provision at a given time, this does not constitute a waiver of its right to enforce that provision
-          at a later time. Telo reserves all rights that are not explicitly granted to the user under these Terms. Users
-          are not permitted to transfer any of their rights or obligations under these Terms to any other party without
-          the express written consent of Telo. In the event of a conflict between the English version of these Terms and
-          a translated version into another language, the English version shall prevail. This is to ensure clarity and
-          consistency in the interpretation and application of the Terms.
-        </p>
-      </div>
-    </div> -->
+    </div>
     <div class="modal" v-if="isShowModal" @click="closeModal()">
       <div class="modal_content">
         <p @click.prevent="jump('/service')">Terms of Service</p>

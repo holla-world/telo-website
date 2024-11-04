@@ -14,7 +14,7 @@
         <p @click="jump('/service')">Terms of Service</p>
       </div>
     </el-drawer>
-    <div class="content">
+    <!-- <div class="content">
       <div class="phrase">
         <p class="title">What precisely Does this Privacy Policy Encompass?</p>
         <p class="desc">
@@ -270,7 +270,7 @@
           of the changes. Or we could give you an in-app alert to draw your attention to the updated privacy policy.
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script lang="ts" setup>

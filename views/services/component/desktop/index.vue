@@ -14,7 +14,7 @@
         <p @click="jump('/service')">Terms of Service</p>
       </div>
     </el-drawer>
-    <div class="content">
+    <!-- <div class="content">
       <div class="phrase">
         <p class="title">Telo Terms of Service</p>
         <p class="desc">
@@ -292,7 +292,7 @@
           consistency in the interpretation and application of the Terms.
         </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script lang="ts" setup>

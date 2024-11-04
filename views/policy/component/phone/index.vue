@@ -11,7 +11,7 @@
         alt=""
       />
     </div>
-    <div class="content">
+    <!-- <div class="content">
       <div class="phrase">
         <p class="title">What precisely Does this Privacy Policy Encompass?</p>
         <p class="desc">
@@ -267,7 +267,7 @@
           of the changes. Or we could give you an in-app alert to draw your attention to the updated privacy policy.
         </p>
       </div>
-    </div>
+    </div> -->
     <div class="modal" v-if="isShowModal" @click="closeModal()">
       <div class="modal_content">
         <p @click.prevent="jump('/service')">Terms of Service</p>

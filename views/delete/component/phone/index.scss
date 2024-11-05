@@ -29,8 +29,9 @@
       background-color: white;
       width: 343px;
       margin: 40px auto 0;
-      height: 600px;
+      height: fit-content;
       overflow: auto;
+      max-height: 600px;
       .title {
         font-size: 20px;
         font-weight: bold;

@@ -9,9 +9,6 @@
       </div>
     </div>
     <el-drawer v-model="drawer" :with-header="true">
-      <!-- <template #header>
-        <el-icon><Close /></el-icon>
-      </template> -->
       <div class="drawer">
         <p @click="jump('/policy')">Privacy Policy</p>
         <p @click="jump('/service')">Terms of Service</p>

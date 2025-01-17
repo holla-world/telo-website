@@ -1,15 +1,15 @@
 apiVersion: apisix.apache.org/v2
 kind: ApisixRoute
 metadata:
-  name: ringo-web-route
+  name: telo-web-route
 spec:
   http:
-  - name: ringo-web
-    match:
-      paths:
-      - /*
-      hosts:
-      - ringo.staging.voya.world
-    backends:
-    - serviceName: ringo-web
-      servicePort: 80
+    - name: telo-web
+      match:
+        paths:
+          - /*
+        hosts:
+          - teloapp.net
+      backends:
+        - serviceName: telo-web
+          servicePort: 80

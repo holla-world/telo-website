@@ -11,14 +11,18 @@ import path from 'path';
 import autoprefixer from 'autoprefixer';
 import postcsspxtoviewport from 'postcss-px-to-viewport-8-plugin';
 import { visualizer } from 'rollup-plugin-visualizer';
-let serviceHTML = globbySync('./service/**/*.html');
-let homeHTML = globbySync('./home/*.html');
-let freechatHTML = globbySync('./home/freechat/*.html');
 
 export default defineConfig({
+  base: '/',
   build: {
+    outDir: 'dist',
     rollupOptions: {
-      input: ['index.html', ...serviceHTML, ...homeHTML, ...freechatHTML]
+      input: {
+        index: path.resolve(__dirname, 'index.html'),
+        policy: path.resolve(__dirname, 'policy.html'),
+        service: path.resolve(__dirname, 'service.html'),
+        delete: path.resolve(__dirname, 'delete.html')
+      }
     }
   },
   resolve: {
@@ -64,7 +68,6 @@ export default defineConfig({
     visualizer({ open: true }),
     svgLoader(),
     {
-
       name: 'freechat-server',
       configureServer(server) {
         return () => {
@@ -101,7 +104,7 @@ export default defineConfig({
       '/api': {
         target: 'http://api.sandbox.ringo.cool',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '/api'),
+        rewrite: path => path.replace(/^\/api/, '/api'),
         bypass(req, res, options: any) {
           const proxyURL = options.target + options.rewrite(req.url);
           req.headers['x-req-proxyURL'] = proxyURL; // 设置未生效

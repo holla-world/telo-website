@@ -1,0 +1,132 @@
+.main {
+  background: url('../../../assets/bg_content.webp');
+  height: 100vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+
+  .phone_pos {
+    position: absolute;
+    top: 24px;
+    left: 90px;
+  }
+  .logo_pos {
+    position: absolute;
+    top: 115px;
+    left: 66px;
+  }
+  .font_pos {
+    position: absolute;
+    top: 120px;
+    left: 40px;
+  }
+  @media (max-width: 1439px) and (min-width: 1061px) {
+    .loan {
+      position: absolute;
+      top: 248px;
+      right: 40px !important;
+      font-size: 48px;
+      font-weight: bold;
+      color: #ffffff;
+      & > p{
+        font-size: 36px;
+      }
+      
+      strong {
+        color: #615dff;
+      }
+    }
+    .logo_pos {
+      position: absolute;
+      top: 60% !important;
+      left: 16% !important;
+    }
+    .font_pos {
+      position: absolute;
+      top: 60% !important;
+      left: 8% !important;
+    }
+  }
+  @media (max-width: 1060px) and (min-width: 770px) {
+    .logo_pos {
+      position: absolute;
+      top: 60%;
+      left: 14%;
+    }
+    .font_pos {
+      position: absolute;
+      top: 60%;
+      left: 3%;
+    }
+    .loan {
+      position: absolute;
+      top: 248px;
+      right: 40px !important;
+      font-size: 48px;
+      font-weight: bold;
+      color: #ffffff;
+      width: 27% !important;
+      & > p{
+        font-size: 30px;
+      }
+      strong {
+        color: #615dff;
+      }
+    }
+  }
+  @include desktop-viewer {
+    .drawer {
+      font-size: 24px;
+      & > p {
+        margin-bottom: 24px;
+      }
+    }
+    .el-drawer__close {
+      font-size: 30px;
+      color: black;
+    }
+    .loan {
+      top: 248px;
+      right: 33px;
+      position: absolute;
+      font-size: 48px;
+      font-weight: bold;
+      color: #ffffff;
+      strong {
+        color: #615dff;
+      }
+    }
+    .phone {
+      width: 375px;
+      height: 769px;
+    }
+    .logo {
+      height: 77px;
+      width: 80px;
+    }
+    .font {
+      height: 116px;
+      width: 124px;
+    }
+    .header {
+      width: 100%;
+      padding: 21px 32px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .title {
+      & > img {
+        height: 48px;
+        width: 102px;
+      }
+    }
+    .menu {
+      & > img {
+        height: 32px;
+        width: 32px;
+      }
+    }
+  }
+}

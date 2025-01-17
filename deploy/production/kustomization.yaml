@@ -1,7 +1,7 @@
 bases:
   - ../base/
 
-namespace: ringo-production
+namespace: telo-production
 
 generatorOptions:
   disableNameSuffixHash: true
@@ -10,6 +10,6 @@ resources:
   - ingress.yaml
 
 configMapGenerator:
-  - name: cm-ringo-web-config
+  - name: cm-telo-web-config
     files:
       - env

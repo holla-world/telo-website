@@ -1,0 +1,64 @@
+.main {
+  background: url('../../../assets/bg_content.webp');
+  height: 100vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  position: relative;
+  @include desktop-viewer {
+    .drawer {
+      font-size: 24px;
+      & > p {
+        margin-bottom: 24px;
+      }
+    }
+    .el-drawer__close {
+      font-size: 30px;
+      color: black;
+    }
+    .content {
+      margin: 30px auto;
+      width: 1304px;
+      padding: 0 32px;
+      height: 700px;
+      gap: 32px;
+      border-radius: 16px;
+      background: var(--Grayish-purple-light, #f8f6fb);
+      color: #121212;
+      overflow: auto;
+      .content_title {
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .title {
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .desc {
+        margin-top: 10px;
+        font-size: 20px;
+        word-break: break-all;
+      }
+    }
+    .header {
+      width: 100%;
+      padding: 21px 32px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .title {
+      & > img {
+        height: 48px;
+        width: 102px;
+      }
+    }
+    .menu {
+      & > img {
+        height: 32px;
+        width: 32px;
+      }
+    }
+  }
+}
